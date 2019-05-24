@@ -1,4 +1,5 @@
 #include "Player.h"
+using namespace std;
 
 Player::Player(string nickname, string name, string lastname,string country,int age, int gender ){
     this->nickname = nickname;
@@ -8,41 +9,41 @@ Player::Player(string nickname, string name, string lastname,string country,int 
     this->age=age;
     this->gender=gender;
 }
-Player::getNickname(){
+string Player::getNickname(){
     return this->nickname;
 }
-Player::getName();{
+string Player::getName(){
     return this->name;
 }
-Player::getLastname(){
+string Player::getLastname(){
     return this->lastname;
 }
-Player::getCountry(){
+string Player::getCountry(){
     return this->country;
 }
-Player::getAge(){
+int Player::getAge(){
     return this->age;
 }
-Player::getGender(){
+int Player::getGender(){
     return this->gender;
 }
 
-Player::setNickname(string nickname){
+void Player::setNickname(string nickname){
     this->nickname = nickname;
 }
-Player::setName(string name){
+void Player::setName(string name){
     this->name = name;
 }
-Player::setLastname(string lastname){
+void Player::setLastname(string lastname){
     this->lastname = lastname;
 }
-Player::setCountry(string country){
+void Player::setCountry(string country){
     this->country = country;
 }
-Player::setAge(int age){
+void Player::setAge(int age){
     this->age = age;
 }
-Player::setGender (int gender){
+void Player::setGender (int gender){
     this->gender = gender;
 }
 
