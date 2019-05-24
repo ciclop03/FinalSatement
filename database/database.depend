@@ -2,3 +2,9 @@
 1514140574 source:c:\newshift\finalsatement\database\main.cpp
 	<iostream>
 
+1558708466 source:c:\newshift\finalsatement\database\src\player.cpp
+	"Player.h"
+
+1558707736 c:\newshift\finalsatement\database\include\player.h
+	<string>
+

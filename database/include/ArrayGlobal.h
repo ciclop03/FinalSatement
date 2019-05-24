@@ -4,7 +4,7 @@
 #include <Player.h>
 
 
-class ArrayGlobal : public Player
+class ArrayGlobal //: public Player
 {
     public:
         ArrayGlobal(unsigned int size_, int *data);
