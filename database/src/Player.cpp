@@ -8,41 +8,41 @@ Player::Player(string nickname, string name, string lastname,string country,int 
     this->age=age;
     this->gender=gender;
 }
-string getNickname(){
+Player::getNickname(){
     return this->nickname;
 }
-string getName();{
+Player::getName();{
     return this->name;
 }
-string getLastname(){
+Player::getLastname(){
     return this->lastname;
 }
-string getCountry(){
+Player::getCountry(){
     return this->country;
 }
-int getAge(){
+Player::getAge(){
     return this->age;
 }
-int getGender(){
+Player::getGender(){
     return this->gender;
 }
 
-void setNickname(string nickname){
+Player::setNickname(string nickname){
     this->nickname = nickname;
 }
-void setName(string name){
+Player::setName(string name){
     this->name = name;
 }
-void setLastname(string lastname){
+Player::setLastname(string lastname){
     this->lastname = lastname;
 }
-void setCountry(string country){
+Player::setCountry(string country){
     this->country = country;
 }
-void setAge(int age){
+Player::setAge(int age){
     this->age = age;
 }
-void setGender (int gender){
+Player::setGender (int gender){
     this->gender = gender;
 }
 
