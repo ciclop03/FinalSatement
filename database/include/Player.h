@@ -2,11 +2,12 @@
 #define PLAYER_H
 #include <string>
 using namespace std;
-class Player
+class Player : virtual public Person
 {
     public:
         Player(string nickname, string name, string lastname, string country,int age, int gender );
-        ~Player();
+        virtual ~Player();
+
         /// get y set para todo 12 prototipos.
         /// print datos del jugador
         string getNickname();
