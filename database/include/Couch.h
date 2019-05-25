@@ -13,6 +13,8 @@ class Couch :virtual public Person
     protected:
 
     private:
+        string country;
+        string nickname;
 };
 
 #endif // COUCH_H

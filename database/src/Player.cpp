@@ -1,5 +1,6 @@
 #include "Player.h"
 using namespace std;
+/// modificar los parametros y metodos
 
 Player::Player(string nickname, string name, string lastname,string country,int age, int gender ){
     this->nickname = nickname;
@@ -8,6 +9,7 @@ Player::Player(string nickname, string name, string lastname,string country,int 
     this->country = country;
     this->age=age;
     this->gender=gender;
+
 }
 string Player::getNickname(){
     return this->nickname;

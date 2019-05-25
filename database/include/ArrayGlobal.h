@@ -2,7 +2,7 @@
 #define ARRAYGLOBAL_H
 
 #include <Player.h>
-
+///esta accede a todo jugador.
 
 class ArrayGlobal //: public Player
 {

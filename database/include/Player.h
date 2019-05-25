@@ -2,37 +2,40 @@
 #define PLAYER_H
 #include <string>
 using namespace std;
-class Player : virtual public Person
+class Player : virtual public Person /**llamaremos al consturctor de persona
+                                    que seteara age, lastname, name y gender.*/
 {
+    friend ArrayGlobal;
     public:
+
         Player(string nickname, string name, string lastname, string country,int age, int gender );
         virtual ~Player();
 
         /// get y set para todo 12 prototipos.
         /// print datos del jugador
         string getNickname();
-        string getName();
-        string getLastname();
         string getCountry();
-        int getAge();
-        int getGender();
+
 
         void setNickname(string nickname);
-        void setName(string name);
-        void setLastname(string lastname);
         void setCountry(string country);
-        void setAge(int age);
-        void setGender (int gender);
+
+
 
     protected:
 
     private:
+
+        int wins;
+        int looses;
+        int top8times;
+        int CPT_points;
+        character fighter;
+        int firsplacewins;
         string nickname;
-        string name;
-        string lastname;
         string country;
-        int age;
-        int gender;
+
+
 
 };
 
