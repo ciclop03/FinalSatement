@@ -10,7 +10,7 @@ class Player : virtual public Person /**llamaremos al consturctor de persona
 
 
         Player(string nickname, string name, string lastname, string country,int age, int gender,
-               int wins, int looses, int top8s, int CPT_points, character main_character, int tournament_wins,
+               int wins, int looses, int top8s, int CPT_points, Character main_character, int tournament_wins,
                 ): Person(name, lastname, age, gender);
         virtual ~Player();
 
@@ -23,7 +23,7 @@ class Player : virtual public Person /**llamaremos al consturctor de persona
         int getTop8s();
         int CPT_point();
         int getTournament_wins();
-        character getMain_character();
+        Character getMain_character();
 
         void setNickname(string nickname);
         void setCountry(string country);
@@ -31,7 +31,7 @@ class Player : virtual public Person /**llamaremos al consturctor de persona
         void setLooses(int looses);
         void setTop8s(int top8times);
         void setCPTpoins(int CPTpoints);
-        void setMain_character(character main_character);
+        void setMain_character(Character main_character);
         void setTournament_wins(int tournament_wins);
 
 
@@ -44,7 +44,7 @@ class Player : virtual public Person /**llamaremos al consturctor de persona
         int looses;
         int top8s;
         int CPT_points;
-        character main_character;
+        Character main_character;
         int tournament_wins;
         string nickname;
         string country;
