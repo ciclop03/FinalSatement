@@ -1,4 +1,6 @@
 #include "Person.h"
+#include <string>
+using namespace std;
 
 Person::Person(string name, string lastname, int gender, int age)
 {

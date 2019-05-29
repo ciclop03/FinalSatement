@@ -35,7 +35,7 @@ string Player::getLastname(){
 string Player::getCountry(){
     return this->country;
 }
-int Player::get
+
 /*
 int Player::getAge(){
     return this->age;
@@ -45,18 +45,25 @@ int Player::getGender(){
 }
 */
 int Player::getWins(){
-    return this->wins;
+    return wins;
 }
 int Player::getLooses(){
-    return this->looses;
+    return looses;
 }
 int Player::getTop8s(){
-    return this->top8s;
+    return top8s;
 }
-int
+int Player::getCPTpoints(){
+    return CPTpoints;
+}
+Character Player::getMain_character(){
+    return main_character;
+}
+int Player::getTournament_wins(){
+    return tournament_wins;
+}
 
-
-
+///-----SETS------
 
 void Player::setNickname(string nickname){
     this->nickname = nickname;
@@ -80,6 +87,24 @@ void Player::setGender (int gender){
     this->gender = gender;
 }
 */
+void Player::setWins(int wins){
+    this->wins =wins;
+}
+void Player::setLooses(int looses){
+    this->looses=looses;
+}
+void Player::setTop8s(int top8s){
+    this->top8s=top8s;
+}
+void Player::setCPTpoints(int CPTpoints){
+    this->CPTpoints=CPTpoints;
+}
+void Player::setMain_haracter(Character main_character){
+    this->main_character=main_character;
+}
+void Player::setTournament_wins(int tournament_wins){
+    this->tournament_wins=tournament_wins;
+}
 Player::~Player()
 {
     //dtor

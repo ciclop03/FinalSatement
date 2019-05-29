@@ -21,7 +21,7 @@ class Player : virtual public Person /**llamaremos al consturctor de persona
         int getWins();
         int getLooses();
         int getTop8s();
-        int CPT_point();
+        int getCPT_point();
         int getTournament_wins();
         Character getMain_character();
 
