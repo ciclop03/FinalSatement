@@ -4,16 +4,19 @@
 #include <Character.h>
 
 using namespace std;
-class Player : virtual public Person /**llamaremos al consturctor de persona
+
+class Player : virtual public Person { /**llamaremos al consturctor de persona;
                                     que seteara age, lastname, name y gender.*/
-{
+
     friend class ArrayGlobal;
     public:
 
 
         Player(string nickname, string name, string lastname, string country,int age, int gender,
-               int wins, int looses, int top8s, int CPT_points, Character main_character, int tournament_wins)
-        : Person(name, lastname, age, gender);}
+               int wins, int looses, int top8s, int CPT_points, Character main_character, int tournament_wins);
+       /// HEADRE?
+       // : Person(name, lastname, age, gender);
+
         Player();
         virtual ~Player();
 

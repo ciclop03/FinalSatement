@@ -21,6 +21,20 @@ Player::Player(string nickname,string country,int wins, int looses,int top8s, in
     this->age=age;
 
 }
+Player::Player(){
+    this->nickname="-UNKNOWN-";
+    this->country="-UNKNOWN;
+    this->wins=0;
+    this->looses=0;
+    this->top8s=0;
+    this->CPT_points=0;
+    this->main_character=C_001_RYU;
+    this->tournament_wins=0;
+    this->name0="-UNKNOWN-";
+    this->lastname="-UNKNOWN-";
+    this->gender="-UNKNOWN-(F or M)";
+    this->age="-UNKNOWN-";
+}
 int probabilityOfWinning(player a, player b){
 }
 

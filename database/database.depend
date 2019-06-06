@@ -7,14 +7,14 @@
 1558708466 source:c:\newshift\finalsatement\database\src\player.cpp
 	"Player.h"
 
-1559847278 c:\newshift\finalsatement\database\include\player.h
+1559859020 c:\newshift\finalsatement\database\include\player.h
 	<string>
 	<Character.h>
 
 1558708712 source:c:\newshift\finalsatement\database\src\arrayglobal.cpp
 	"ArrayGlobal.h"
 
-1558801731 c:\newshift\finalsatement\database\include\arrayglobal.h
+1559857076 c:\newshift\finalsatement\database\include\arrayglobal.h
 	<Player.h>
 
 1559140949 source:c:\users\domenico\documents\github\finalsatement\database\main.cpp
@@ -22,9 +22,12 @@
 	<stdio.h>
 	<string>
 
-1559095564 c:\newshift\finalsatement\database\include\character.h
-	<Person.h>
+1559859020 c:\newshift\finalsatement\database\include\character.h
+	<string>
 
 1559160707 c:\newshift\finalsatement\database\include\person.h
 	<string>
+
+1559095564 source:c:\newshift\finalsatement\database\src\character.cpp
+	"Character.h"
 
