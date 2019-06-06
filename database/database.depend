@@ -1,12 +1,15 @@
 # depslib dependency file v1.0
-1514140574 source:c:\newshift\finalsatement\database\main.cpp
+1559846364 source:c:\newshift\finalsatement\database\main.cpp
 	<iostream>
+	<stdio.h>
+	<string>
 
 1558708466 source:c:\newshift\finalsatement\database\src\player.cpp
 	"Player.h"
 
-1558921978 c:\newshift\finalsatement\database\include\player.h
+1559847278 c:\newshift\finalsatement\database\include\player.h
 	<string>
+	<Character.h>
 
 1558708712 source:c:\newshift\finalsatement\database\src\arrayglobal.cpp
 	"ArrayGlobal.h"
@@ -17,5 +20,11 @@
 1559140949 source:c:\users\domenico\documents\github\finalsatement\database\main.cpp
 	<iostream>
 	<stdio.h>
+	<string>
+
+1559095564 c:\newshift\finalsatement\database\include\character.h
+	<Person.h>
+
+1559160707 c:\newshift\finalsatement\database\include\person.h
 	<string>
 

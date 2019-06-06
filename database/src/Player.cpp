@@ -14,10 +14,12 @@ Player::Player(string nickname,string country,int wins, int looses,int top8s, in
     this->main_character=main_chracter;
     this->tournament_wins=tournament_wins;
     ///INHERITANCE:
+
     this->name=name;
     this->lastname=lastname;
     this->gender=gender;
     this->age=age;
+
 }
 int probabilityOfWinning(player a, player b){
 }

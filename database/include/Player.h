@@ -1,17 +1,20 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 #include <string>
+#include <Character.h>
+
 using namespace std;
 class Player : virtual public Person /**llamaremos al consturctor de persona
                                     que seteara age, lastname, name y gender.*/
 {
-    friend ArrayGlobal;
+    friend class ArrayGlobal;
     public:
 
 
         Player(string nickname, string name, string lastname, string country,int age, int gender,
-               int wins, int looses, int top8s, int CPT_points, Character main_character, int tournament_wins,
-                ): Person(name, lastname, age, gender);
+               int wins, int looses, int top8s, int CPT_points, Character main_character, int tournament_wins)
+        : Person(name, lastname, age, gender);}
+        Player();
         virtual ~Player();
 
         /// get y set para todo 12 prototipos.
@@ -24,6 +27,7 @@ class Player : virtual public Person /**llamaremos al consturctor de persona
         int getCPT_point();
         int getTournament_wins();
         Character getMain_character();
+
 
         void setNickname(string nickname);
         void setCountry(string country);
