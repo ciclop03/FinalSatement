@@ -9,6 +9,7 @@ class Person
 {
     public:
         Person(string name, string lastname, int gender, int age);
+        Person();
         virtual ~Person();
 
         void setName(string name);

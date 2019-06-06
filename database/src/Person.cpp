@@ -10,7 +10,12 @@ Person::Person(string name, string lastname, int gender, int age)
     this->age=age;
     this->gender=gender;
 }
-
+Person::Person(){
+    this->name="-UNKNOWN-";
+    this->gender=1;
+    this->age=-1;
+    this->lastname= ""-UNKNOWN-";"
+}
 string Player::getName(){
     return this->name;
 }
