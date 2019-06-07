@@ -1,0 +1,42 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+template <class T>
+
+
+void Ordenamiento(T a[], int size){
+    int i,j;
+    float comp;
+    T aux;
+    
+    
+    for (i=0; i<size; i++)
+        for (j=0 ; j<size-i; j++){
+            comp=strcmp(a[i],a[j+1]);
+            if (comp>0){
+             
+            strcpy (aux ,a[j]);
+            strcpy (a[j] ,a[j+1]);
+            strcpy (a[j+1] , aux);
+            }
+        }
+
+ }
+
+template <class T>
+void Print(T arr[],int size){
+    for(int i =0; i<size;i++){
+        cout<<arr[i]<<endl;
+    }
+}
+
+
+
+int main(){
+    char a[][11]={"paolo","andres"};
+    int b[]={2,1};
+   
+    
+    Ordenamiento(a, 2);
+    Print(a,2);
+}
