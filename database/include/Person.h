@@ -8,7 +8,7 @@ using namespace std;
 class Person
 {
     public:
-        Person(string name, string lastname, int gender, int age);
+        Person(string name, string lastname, int age, int gender);
         Person();
         virtual ~Person();
 

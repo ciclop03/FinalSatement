@@ -2,8 +2,9 @@
 using namespace std;
 /// modificar los parametros y metodos
 
-Player::Player(string nickname,string country,int wins, int looses,int top8s, int CPT_points,
-                Character main_chracter,int tournament_wins ):Person(name,lastname,gender,age){
+Player::Player(string name,string lastname,int age,int gender,string nickname,string country,
+               int wins,int looses,int top8s,int CPT_points,Character main_character,int tournament_wins)
+    :Person(name,lastname,age,gender){
 
     this->nickname=nickname;
     this->country=country;
@@ -14,28 +15,33 @@ Player::Player(string nickname,string country,int wins, int looses,int top8s, in
     this->main_character=main_chracter;
     this->tournament_wins=tournament_wins;
     ///INHERITANCE:
+    /*
 
     this->name=name;
     this->lastname=lastname;
     this->gender=gender;
     this->age=age;
+    */
 
 }
-Player::Player(){
+Player::Player():Person(){
     this->nickname="-UNKNOWN-";
-    this->country="-UNKNOWN;
+    this->country="-UNKNOWN";
     this->wins=0;
     this->looses=0;
     this->top8s=0;
     this->CPT_points=0;
     this->main_character=C_001_RYU;
     this->tournament_wins=0;
+    /*
     this->name0="-UNKNOWN-";
     this->lastname="-UNKNOWN-";
     this->gender="-UNKNOWN-(F or M)";
     this->age="-UNKNOWN-";
+    */
 }
-int probabilityOfWinning(player a, player b){
+int guess_result(player a, player b){
+    return;
 }
 
 string Player::getNickname(){

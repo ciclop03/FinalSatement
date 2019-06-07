@@ -5,19 +5,18 @@
 
 using namespace std;
 
-class Player : public Person
+class Player :virtual public Person
 {
 
     friend class ArrayGlobal;
     public:
 
 
-        Player(string nickname, string name, string lastname, string country,int age, int gender,
-               int wins, int looses, int top8s, int CPT_points, Character main_character, int tournament_wins);
-       /// HEADRE?
-       // : Person(name, lastname, age, gender);
+        Player(string ,string ,int,int ,string ,string ,
+               int ,int,int ,int ,Character ,int )
+               : Person(name, lastname, age, gender);
 
-        Player();
+        Player():Person;
         virtual ~Player();
 
         /// get y set para todo 12 prototipos.
@@ -45,7 +44,8 @@ class Player : public Person
 
     protected:
 
-    private:
+    private:guess_result(Player, Player);
+
 
         int wins;
         int looses;

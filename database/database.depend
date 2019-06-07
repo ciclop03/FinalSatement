@@ -7,7 +7,7 @@
 1558708466 source:c:\newshift\finalsatement\database\src\player.cpp
 	"Player.h"
 
-1559862172 c:\newshift\finalsatement\database\include\player.h
+1559891786 c:\newshift\finalsatement\database\include\player.h
 	"Person.h"
 	<Character.h>
 
@@ -25,7 +25,7 @@
 1559859020 c:\newshift\finalsatement\database\include\character.h
 	<string>
 
-1559861882 c:\newshift\finalsatement\database\include\person.h
+1559889853 c:\newshift\finalsatement\database\include\person.h
 	<string>
 
 1559859072 source:c:\newshift\finalsatement\database\src\character.cpp
@@ -36,4 +36,8 @@
 
 1559095663 c:\newshift\finalsatement\database\include\extra_character_player.h
 	<Player.h>
+
+1559889902 source:c:\newshift\finalsatement\database\src\person.cpp
+	"Person.h"
+	<string>
 
